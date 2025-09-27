@@ -1,12 +1,32 @@
-# React + Vite
+#  Real-Time Object Detection
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **real-time object detection application** that identifies and tracks objects from a live webcam feed using **YOLOv5/YOLOv8** and **OpenCV**. Built with Python, this project can detect multiple objects simultaneously with high accuracy and speed.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Features
 
-## Expanding the ESLint configuration
+-  Detects multiple objects in real-time from webcam or video input
+-  Highlights detected objects with **bounding boxes** and labels
+-  High-speed detection using **YOLO** deep learning models
+-  Displays confidence scores for detected objects
+-  Optional: Capture or save detected frames
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+- **Python 3.x**  
+- **OpenCV** for video capture and image processing  
+- **PyTorch** for YOLO model inference  
+- **YOLOv5 / YOLOv8** pre-trained models  
+- **NumPy** for data manipulation  
+
+---
+
+##  Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/amit8874/real-time-object-detection.git
+   cd real-time-object-detection
